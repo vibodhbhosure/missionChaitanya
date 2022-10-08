@@ -12,4 +12,17 @@
   color:#ffffff;
   font-family: 'Cormorant SC', serif;
   font-size:2.8rem;
+  width: 100%;
  } 
+ #navbar{
+  text-align: center;
+  padding:1.0rem ;
+  background-color:#F55A5A;
+  color:#ffffff;
+  font-family: 'Cormorant SC', serif;
+  font-size:1.3rem;
+ }
+ #register_login{
+  position:absolute;
+  right:15px;
+ }
