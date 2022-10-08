@@ -1,5 +1,8 @@
-body {
-    background-image: url("/public/assets/img.png");
+#bgimgwhydowe{
+    background-image: url("/public/assets/2.4.png");
     background-repeat: no-repeat;
-    background-size: 100vw 100vh;
-   }
+    background-size: 100vw
+}
+#whydowe{
+height:90vh
+}
