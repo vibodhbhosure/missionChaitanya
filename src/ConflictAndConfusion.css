@@ -1,15 +1,15 @@
-#bgimgwhydowe{
+#bgimgconflictandconfusion{
     background-image: url("/public/assets/2.4.png");
     background-repeat: no-repeat;
     background-size: 100vw
 }
-#whydowe{
+#conflictandconfusion{
 height:90vh;
 display:flex;
 flex-direction: column;
 align-items: center;
 }
-#whydowetitle{
+#conflictandconfusiontitle{
     font-size: 3rem;
     font-weight:900;
     color:#ffffff;

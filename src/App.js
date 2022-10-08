@@ -11,7 +11,7 @@ import Home from './components/Home';
 import WhyDoWe from './components/WhyDoWe'
 import ContactUs from './components/ContactUs'
 import AboutUs from './components/AboutUs'
-import ConflictResulotion from './components/ConflictResulotion'
+import ConflictsAndConfusion from './components/ConflictsAndConfusion'
 
 
 
@@ -41,7 +41,7 @@ export default function App() {
           component props we passes the imported component*/}
           <Route path="/contactus" element={ContactUs} />
           <Route path="/aboutus" element={AboutUs} />
-          <Route path="/conflictresolution" element={ConflictResulotion} />
+          <Route path="/conflictandconfusion" element={<ConflictsAndConfusion/>} />
             
           {/* If any route mismatches the upper 
           route endpoints then, redirect triggers 

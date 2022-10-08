@@ -17,7 +17,7 @@ export default function Navbar() {
                             <a className="nav-link" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info <span class="sr-only">(current)</span></a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <Link to="/whydowe" ><a class="dropdown-item" href="#">Why we do</a></Link>
-                            <Link to="conflictresolution"><a class="dropdown-item" href="#">Conflicts Resolution</a></Link>    
+                            <Link to="conflictandconfusion"><a class="dropdown-item" href="#">Conflicts and Confusion</a></Link>    
                             </div>
                         </li>
                         <li className="nav-item active">
