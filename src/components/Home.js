@@ -7,7 +7,13 @@ export default function Home() {
   
         <div id="homecontainer">
         <div id="home">
-        Lorem Ipsum is simply dummy text of the printing and typesetting industry<br/> versions of Lorem Ipsum versions of Lorem Ipsum<br /><br/><button type="button" class="btn btn-light">Donate</button>
+        Mission Chaitanya is a initiative to spread awareness among <br />the people
+        about the rich culture of our country.<br />
+        
+        Our mission focuses on clearing misconceptions regarding our <br/> culture and
+        giving the people , <br/>
+        the idea of perfect living with facts that our ancestors have discovered
+        centuries back.<br /><br/><button type="button" class="btn btn-light">Donate</button>
         </div>
        
         </div>
