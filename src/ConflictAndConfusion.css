@@ -1,7 +1,7 @@
 #bgimgconflictandconfusion{
     background-image: url("/public/assets/2.4.png");
     background-repeat: no-repeat;
-    background-size: 100vw
+    background-size: 100vw 120vh
 }
 #conflictandconfusion{
 height:90vh;
@@ -18,7 +18,7 @@ align-items: center;
 .card-container{
     
     position: absolute;
-    top:15rem;
+    top:13rem;
     align-items: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);

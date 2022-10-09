@@ -13,6 +13,7 @@ import ContactUs from './components/ContactUs'
 import AboutUs from './components/AboutUs'
 import ConflictsAndConfusion from './components/ConflictsAndConfusion'
 import Auth from './components/Auth';
+import DoNamaste from './components/WhyDoWe/DoNamaste';
 
 
 
@@ -44,6 +45,7 @@ export default function App() {
           <Route path="/aboutus" component={AboutUs} />
           <Route path="/auth" component={Auth} />
           <Route path="/conflictandconfusion" component={ConflictsAndConfusion} />
+          <Route path="/whydowedonamaste" component={DoNamaste} />
             
           {/* If any route mismatches the upper 
           route endpoints then, redirect triggers 
