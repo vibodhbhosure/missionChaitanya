@@ -12,6 +12,7 @@ import WhyDoWe from './components/WhyDoWe'
 import ContactUs from './components/ContactUs'
 import AboutUs from './components/AboutUs'
 import ConflictsAndConfusion from './components/ConflictsAndConfusion'
+import Auth from './components/Auth';
 
 
 
@@ -41,6 +42,7 @@ export default function App() {
           component props we passes the imported component*/}
           <Route path="/contactus" component={ContactUs} />
           <Route path="/aboutus" component={AboutUs} />
+          <Route path="/auth" component={Auth} />
           <Route path="/conflictandconfusion" component={ConflictsAndConfusion} />
             
           {/* If any route mismatches the upper 

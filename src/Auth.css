@@ -1,0 +1,11 @@
+#bgauth{
+    background-color: aquamarine;
+    width: 100vw;
+    height: 160vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#form{
+    position: relative;
+    top: 10rem;
+}
