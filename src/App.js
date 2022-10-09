@@ -1,7 +1,7 @@
 import './App.css';
 import {
   BrowserRouter as Router,
-  Routes,
+  Switch,
   Route,
 
 } from "react-router-dom";
@@ -25,29 +25,29 @@ export default function App() {
       
       <Router>
       <Navbar/>
-        <Routes>
+        <Switch>
           {/* This route is for home component 
           with exact path "/", in component props 
           we passes the imported component*/}
-          <Route exact path="/" element={<Home/>} />
+          <Route exact path="/" component={Home} />
             
           {/* This route is for about component 
           with exact path "/about", in component 
           props we passes the imported component*/}
-          <Route path="/whydowe" element={<WhyDoWe/>} />
+          <Route path="/whydowe" component={WhyDoWe} />
             
           {/* This route is for contactus component
           with exact path "/contactus", in 
           component props we passes the imported component*/}
-          <Route path="/contactus" element={ContactUs} />
-          <Route path="/aboutus" element={AboutUs} />
-          <Route path="/conflictandconfusion" element={<ConflictsAndConfusion/>} />
+          <Route path="/contactus" component={ContactUs} />
+          <Route path="/aboutus" component={AboutUs} />
+          <Route path="/conflictandconfusion" component={ConflictsAndConfusion} />
             
           {/* If any route mismatches the upper 
           route endpoints then, redirect triggers 
           and redirects app to home component with to="/" */}
           <Route to="/" />
-        </Routes>
+        </Switch>
       </Router>
       
      
