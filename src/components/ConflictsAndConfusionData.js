@@ -18,14 +18,14 @@ export default [{
     id: 3,
     src: "https://fractalenlightenment.com/wp-content/uploads/2014/03/birth_death_cycle.png",
     title: "Life Death and Rebirth",
-    desc: "",
-    link: ""
+    desc: "What is life? What is birth and death? Why does one suffer while another experiences joy? Is this the only birth? These are some of the fundamental questions that every thinking individual seeks an answer to.",
+    link: "/lifeanddeath"
 },
 {
     id: 4,
     src: "https://i.pinimg.com/564x/ca/fd/80/cafd803d1ce9f768b35980249f98c400.jpg",
     title: "Destiny and Self Effort",
-    desc: "",
-    link: ""
+    desc: "What is fate? Are some destined to fail despite their best efforts? Are some just plain lucky? Is God partial? Can we change our destiny? Are Hindus fatalistic?",
+    link: "/destinySelfEffort"
 },
 ]

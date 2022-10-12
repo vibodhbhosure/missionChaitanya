@@ -29,7 +29,7 @@ export default function DoNamaste() {
                 <div>
                     <img  className="img" src="https://i.pinimg.com/236x/40/0f/97/400f978e2cea0bf76abdc2a511d46795.jpg" />
                 </div><div>
-                    <p>The spiritual meaning is even deeper. The Life Force, the Divine, the Self or the Lord in me is the same in all. Recognising this oneness with the meeting of the palms, we salute with head bowed to the Divine in the person we meet. That is why sometimes, we close our eyes as we do namaste to a revered person or the Lord - as if to look at the Self within. The gesture is often accompanied by words like 'Rama Rama', 'Jai Śri Kṛṣṇa', 'Namo Nārāyaṇa', 'Jai Siya Rama', 'Om Santi' and so on, indicating the recognition of this</p>
+                    <p>The spiritual meaning is even deeper. The Life Force, the Divine, the Self or the Lord in me is the same in all. Recognising this oneness with the meeting of the palms, we salute with head bowed to the Divine in the person we meet. That is why sometimes, we close our eyes as we do namaste to a revered person or the Lord - as if to look at the Self within. The gesture is often accompanied by words like<b> 'Rama Rama', 'Jai Śri Kṛṣṇa', 'Namo Nārāyaṇa', 'Jai Siya Rama', 'Om Santi'</b> and so on, indicating the recognition of this</p>
                     <p>When we know this significance, our greeting does not remain just a superficial gesture or word but paves the way for a deeper communion with another, in an atmosphere of love and respect.
                     </p></div>
             </div>

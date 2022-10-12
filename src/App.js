@@ -19,6 +19,8 @@ import OfferFood from './components/WhyDoWe/OfferFood';
 import RingBell from './components/WhyDoWe/RingBell';
 import CasteSystem from './components/ConflictsandConfusion/CasteSystem';
 import IdolWorship from './components/ConflictsandConfusion/IdolWorship';
+import LifeDeath from './components/ConflictsandConfusion/LifeDeath';
+import DestinySelfEffort from './components/ConflictsandConfusion/DestinySelfEffort';
 
 
 
@@ -50,12 +52,16 @@ export default function App() {
           <Route path="/aboutus" component={AboutUs} />
           <Route path="/auth" component={Auth} />
           <Route path="/conflictandconfusion" component={ConflictsAndConfusion} />
+        {/* whydo we routes */}
           <Route path="/whydowedonamaste" component={DoNamaste} />
           <Route path="/dnt" component={DoNotTouch} />
           <Route path="/offerfood" component={OfferFood} />
           <Route path="/ringbell" component={RingBell} />
+{/* conflicts and confusion routes */}
           <Route path="/casteSystem" component={CasteSystem} />
           <Route path="/idolworship" component={IdolWorship} />
+          <Route path="/lifeanddeath" component={LifeDeath} />
+          <Route path="/destinySelfEffort" component={DestinySelfEffort} />
 
             
           {/* If any route mismatches the upper 
