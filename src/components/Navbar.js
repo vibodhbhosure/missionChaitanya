@@ -56,19 +56,19 @@ export default function Navbar() {
               </div>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <Link to="/donate" className="nav-link"  >
                 Donate
-              </a>
+              </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+            <Link to="/aboutus" className="nav-link"  >
                 About Us
-              </a>
+                </Link>
             </li>
             <li className="nav-item active">
-              <a className="nav-link " href="#">
+            <Link to="/contactus" className="nav-link"  >
                 Contact Us
-              </a>
+                </Link>
             </li>
             <div>
               <Link to="/auth">
