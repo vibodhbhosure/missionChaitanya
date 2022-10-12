@@ -37,13 +37,28 @@ export default function OfferFood() {
       </div>
       <div className="container">
         <div>
-          <p>Knowing this, our entire attitude to food and the act of eating changes. The food offered is pure and the best and shared with others, before consuming. We do not demand, complain or criticise the quality of the food we get. We do not waste or reject it. We eat it with a cheerful acceptance (prasada buddhi). When we become established in this attitude, we are then able to cheerfully accept all we get in life, as His prasada.
+          <p>
+            Knowing this, our entire attitude to food and the act of eating
+            changes. The food offered is pure and the best and shared with
+            others, before consuming. We do not demand, complain or criticise
+            the quality of the food we get. We do not waste or reject it. We eat
+            it with a cheerful acceptance (prasada buddhi). When we become
+            established in this attitude, we are then able to cheerfully accept
+            all we get in life, as His prasada.
           </p>
 
           <p>
-          Before we partake of our daily meals, we first sprinkle water around the plate as an act of purification. Five morsels of food are placed on the side of the plate acknowledging the debt owed by us to a) divine forces (devată ṛṇa) - for their benign grace and protection, b) our ancestors (pitr rna) - for giving us their lineage and a family culture, c) the sages (rsi rna) - as our religion and culture have been 'realised', maintained and handed down to us by them. d) our fellow beings (manusya ma) - who constitute the society, without the support of which we could not live as we do, e) other living beings (bhūta rna) - for serving us selflessly
+            Before we partake of our daily meals, we first sprinkle water around
+            the plate as an act of purification. Five morsels of food are placed
+            on the side of the plate acknowledging the debt owed by us to a)
+            divine forces (devată ṛṇa) - for their benign grace and protection,
+            b) our ancestors (pitr rna) - for giving us their lineage and a
+            family culture, c) the sages (rsi rna) - as our religion and culture
+            have been 'realised', maintained and handed down to us by them. d)
+            our fellow beings (manusya ma) - who constitute the society, without
+            the support of which we could not live as we do, e) other living
+            beings (bhūta rna) - for serving us selflessly.
           </p>
-          
         </div>
         <div>
           <img
@@ -60,51 +75,57 @@ export default function OfferFood() {
           />
         </div>
         <div>
-        <p>
+          <p>
+            Thereafter, the Lord, the Life Force, who is also within us as the
+            five life-giving physiological functions, is offered the food. This
+            is done with the chant - Om präṇāya svähä, Om apanaya svähä, Om
+            vyǎnǎya svähä, Om udānāya svähä, Om samānāya svähä, Om brahmane
+            svāhā [referring to the five physiological functions respiratory
+            (prāna), excretory (apāna), circulatory (vyāna), digestive (samana)
+            and reversal (udāna) systems]. After offering the food thus, it is
+            eaten as prasada - blessed food. <br />
+            To remember this concept, many chant following verses of the Gita -
+          </p>
+          <p>
             <b>
               {" "}
-              सरस्वति नमस्तुभ्यं वरदे कामरूपिणी । विद्यारम्भं करिष्यामि
-              सिद्धिर्भवतु मे सदा ॥{" "}
+              ब्रह्मार्पणं ब्रह्म हविर्बह्माग्नौ ब्रह्मणा हुतम् । ब्रह्मैव तेन
+              गन्तव्यं ब्रह्मकर्मसमाधिना ॥{" "}
             </b>
             <br />
-            <br /> saraswati namas-tubhyam varade käma-rūpiņi,
+            brahmarpanam brahma havir brahmagnau brahmana hutam,
             <br />
-            vidyaraṁbhanı karişyämi siddhir-bhavatu me sadā.
+            brahmaiva tena gantavyam brahma-karma-samadhina.
             <br />
-            <br />O Goddess Sarasvati! The giver of boons and fulfiller of
-            wishes, I prostrate to You before starting my studies. May You
-            always fulfil me.
-          </p>
-          <p>
-            Children are also strongly discouraged from touching people with
-            their feet. Even if this happens accidentally, we touch the person
-            and bring the fingers to our eyes as a mark of apology. Even when
-            elders touch a younger person inadvertently with their feet, they
-            immediately apologise.
-          </p>
-          <p>
-            To touch another with the feet is considered an act of misdemeanor.
-            Why is this so?
           </p>
         </div>
       </div>
       <div className="container">
         <div>
           <p>
-            Man is regarded as the most beautiful, living, breathing temple of
-            the Lord. Therefore, touching another with the feet is akin to
-            disrespecting the divinity within him or her. This calls for an
-            immediate apology, which is offered with reverence and humility.
+            <b>
+              {" "}
+              अहं वैश्वानरो भूत्वा प्राणिनां देहमाश्रितः । प्राणापानसमायुक्तः
+              पचाम्यन्नं चतुर्विधम् ॥{" "}
+            </b>
+            <br />
+            aham vaiśvānaro bhatva prāṇinām deham-aṣritaḥ,
+            <br />
+            prāṇāpāna-samayuktaḥ pacamyannam catur-vidham.
+            <br />
+            <br />
           </p>
           <p>
-            Thus, many of our customs are designed to be simple but powerful
-            reminders or pointers of profound philosophical truths. This is one
-            of the factors that has kept Indian culture alive across centuries.
+            Brahman is the oblation; the clarified butter; the fire; the
+            oblation... Brahman (the Supreme) shall be reached by him, who sees
+            the Supreme in all actions. Residing in all living beings as the
+            digestive fire, I digest the four types of food eaten by them (as an
+            offering to Me).
           </p>
         </div>
         <img
           className="img"
-          src="https://assets.thehansindia.com/hansindia-bucket/2019/03/500x300_Vedas_3234.jpg"
+          src="https://ds393qgzrxwzn.cloudfront.net/resize/m600x500/cat1/img/images/0/8If1BPNtW5.jpg"
         />
       </div>
       <div className="footer">&copy; Mission Chaitanya</div>
