@@ -14,6 +14,11 @@ import AboutUs from './components/AboutUs'
 import ConflictsAndConfusion from './components/ConflictsAndConfusion'
 import Auth from './components/Auth';
 import DoNamaste from './components/WhyDoWe/DoNamaste';
+import DoNotTouch from './components/WhyDoWe/DoNotTouch';
+import OfferFood from './components/WhyDoWe/OfferFood';
+import RingBell from './components/WhyDoWe/RingBell';
+import CasteSystem from './components/ConflictsandConfusion/CasteSystem';
+import IdolWorship from './components/ConflictsandConfusion/IdolWorship';
 
 
 
@@ -46,6 +51,12 @@ export default function App() {
           <Route path="/auth" component={Auth} />
           <Route path="/conflictandconfusion" component={ConflictsAndConfusion} />
           <Route path="/whydowedonamaste" component={DoNamaste} />
+          <Route path="/dnt" component={DoNotTouch} />
+          <Route path="/offerfood" component={OfferFood} />
+          <Route path="/ringbell" component={RingBell} />
+          <Route path="/casteSystem" component={CasteSystem} />
+          <Route path="/idolworship" component={IdolWorship} />
+
             
           {/* If any route mismatches the upper 
           route endpoints then, redirect triggers 
