@@ -1,11 +1,11 @@
 import React from "react";
 
 
-export default function RingBell() {
+export default function IdolWorship() {
     return (
         <div >
   
-       ring bell
+       lIFE DEATH
         </div>
         
     )
