@@ -41,7 +41,18 @@
   overflow: hidden;
   color:white;
 }
-
+.linktodonate{
+  text-decoration: none;
+  color: black;
+  width:8rem;
+  font-size:1.5rem;
+  font-weight:600;
+}
+.linktodonate:hover{
+  color:white;
+  background-color:#343434;
+}
+ 
 .home:before {
   position: absolute;
   content: "";
