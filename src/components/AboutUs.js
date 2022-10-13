@@ -16,7 +16,7 @@ export default function AboutUs() {
                 the idea of perfect living with facts that our ancestors have discovered centuries back.
             </div>
             <div className="developer-div">
-                <h3>Developers</h3>
+                <h3 className="developer-div-title">Connect with Us</h3>
                 <div className="container-1">
                     <div>  
                      <div class="card developer-card">
@@ -24,16 +24,24 @@ export default function AboutUs() {
                             <h5 class="card-title developer-title">Suyog Havare</h5>
 
 
-                            <div className="social-icons"></div>
+                            <div className="social-icons">
+                            <a  href="https://github.com/suyoghavare">  <img className='icons' src={require('./github.png')}  /></a>
+                            <a  href="https://www.linkedin.com/in/suyog-havare-3221a7251/">  <img className='icons' src={require('./linkedin.png')} /></a>
+                             
+                            </div>
                         </div>
                     </div>
                     </div>
                     <div> <div class="card developer-card">
                         <div class="card-body">
-                            <h5 class="card-title developer-title">Suyog Havare</h5>
+                            <h5 class="card-title developer-title">Snehal Lohar</h5>
 
 
-                            <div className="social-icons"></div>
+                            <div className="social-icons">
+                            <a  href="https://github.com/SnehalSLohar"> <img className='icons' src={require('./github.png')}/></a>
+                            <a  href="https://www.linkedin.com/in/snehal-lohar-259198216/"> <img className='icons' src={require('./linkedin.png')}  /></a>
+                                 
+                            </div>
                         </div>
                     </div></div>
                 </div>
@@ -41,21 +49,27 @@ export default function AboutUs() {
                     <div>
                     <div class="card developer-card">
                         <div class="card-body">
-                            <h5 class="card-title developer-title">Suyog Havare</h5>
+                            <h5 class="card-title developer-title">Mrunal Tamhane</h5>
 
 
                             <div className="social-icons">
-                                <img src={require('./github.png')}/>
+                               <a  href="https://github.com/mrunaltamhane"> <img className='icons' src={require('./github.png')}/></a>
+                               <a  href="https://www.linkedin.com/in/mrunaltamhane/">   <img className='icons' src={require('./linkedin.png')} /></a>
+                               
                             </div>
                         </div>
                     </div>
                     </div>
                     <div> <div class="card developer-card">
                         <div class="card-body">
-                            <h5 class="card-title developer-title">Suyog Havare</h5>
+                            <h5 class="card-title developer-title">Yash Jagdale</h5>
 
 
-                            <div className="social-icons"></div>
+                            <div className="social-icons">
+                            <a  href="https://github.com/YashJagdale45"> <img className='icons' src={require('./github.png')} /></a>
+                            <a  href=""> <img className='icons' src={require('./linkedin.png')} /></a>
+                                
+                            </div>
                         </div>
                     </div></div>
 
