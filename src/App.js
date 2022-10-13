@@ -12,7 +12,7 @@ import WhyDoWe from './components/WhyDoWe'
 import ContactUs from './components/ContactUs'
 import AboutUs from './components/AboutUs'
 import ConflictsAndConfusion from './components/ConflictsAndConfusion'
-import Auth from './components/Auth';
+// import Auth from './components/Auth';
 import DoNamaste from './components/WhyDoWe/DoNamaste';
 import DoNotTouch from './components/WhyDoWe/DoNotTouch';
 import OfferFood from './components/WhyDoWe/OfferFood';
