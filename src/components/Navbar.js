@@ -47,7 +47,7 @@ export default function Navbar() {
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <Link to="/whydowe">
                   <a class="dropdown-item" href="#">
-                    Why we do
+                    Why do we?
                   </a>
                 </Link>
                 <Link to="conflictandconfusion">

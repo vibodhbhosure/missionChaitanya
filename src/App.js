@@ -52,7 +52,7 @@ export default function App() {
           component props we passes the imported component*/}
           <Route path="/contactus" component={ContactUs} />
           <Route path="/aboutus" component={AboutUs} />
-          <Route path="/auth" component={Login} />
+          <Route path="/login" component={Login} />
           <Route path="/conflictandconfusion" component={ConflictsAndConfusion} />
         {/* whydo we routes */}
           <Route path="/whydowedonamaste" component={DoNamaste} />
