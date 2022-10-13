@@ -4,19 +4,16 @@
   box-sizing: border-box;
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("https://indusscrolls.com/wp-content/uploads/2019/07/temple-bells.jpg");
   background-position: center;
   background-size: cover;
   position: absolute;
 }
-a {
-  text-decoration: none;
-  color: palevioletred;
-  font-size: 28px;
-}
+/* 
 #login-form {
   display: none;
-}
+} */
 .form-box {
   width: 380px;
   height: 480px;
@@ -41,7 +38,8 @@ a {
   outline: none;
   position: relative;
 }
-#btn {
+
+#auth-btn {
   top: 0;
   left: 0;
   position: absolute;

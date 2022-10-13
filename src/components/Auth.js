@@ -10,13 +10,25 @@ import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { MuiTelInput } from "mui-tel-input";
 
 export default function Auth() {
-  const [isSignup, setIsSignup] = useState(false);
-  console.log(isSignup);
-  const [value, setValue] = React.useState(null);
-  const [phone, setPhone] = React.useState("");
+  var x = document.getElementById("login");
+  var y = document.getElementById("register");
+  var z = document.getElementById("btn");
+  function register() {
+    x.style.left = "-400px";
+    y.style.left = "50px";
+    z.style.left = "110px";
+  }
+  function login() {
+    x.style.left = "50px";
+    y.style.left = "450px";
+    z.style.left = "0px";
+  }
 
-  const handleChangeInPhone = (newPhone) => {
-    setPhone(newPhone);
+  var modal = document.getElementById("login-form");
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
   };
 
   return (
@@ -24,11 +36,11 @@ export default function Auth() {
       <div id="login-form" className="login-page">
         <div className="form-box">
           <div className="button-box">
-            <div id="btn"></div>
-            <button type="button" onclick="login()" className="toggle-btn">
+            <div id="auth-btn"></div>
+            <button type="button" onClick={login} className="toggle-btn">
               Log In
             </button>
-            <button type="button" onclick="register()" className="toggle-btn">
+            <button type="button" onClick={register} className="toggle-btn">
               Register
             </button>
           </div>
