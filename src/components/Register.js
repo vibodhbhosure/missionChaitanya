@@ -3,33 +3,38 @@ import '../Register.css'
 
 
 export default function Register() {
-    function validateForm() {
-        nameCheck();
-        emailChecking();
-        passwordCheck();
-        MobileCheck();
-
+    function store() {
+        let email = document.getElementById('email');
+        let psw = document.getElementById('confirmPassword');
+        localStorage.setItem('email', email.value);
+        localStorage.setItem('pw', psw.value);
     }
-
-    function MobileCheck() {
+    function validateForm() {
+         
+    
         let mobile = document.forms["myForm"]["mobile"].value;
         if (mobile.length > 10) {
             alert("Please enter a valid mobile number ");
         }
-    }
-    function nameCheck() {
+ 
+     
         let name = document.forms["myForm"]["name"].value;
         if (name == "") {
             alert("Name must be filled out");
             return false;
 
         }
-    }
-    function emailChecking() {
+    
+     
         let email = document.forms["myForm"]["email"].value;
         if (email == "") {
             alert("Email must be filled out");
             return false;
+        }
+
+        else{store();
+            alert("Registration Successfully")
+            window.location.href = '/login';
         }
 
     }
