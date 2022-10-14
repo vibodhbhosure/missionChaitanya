@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import '../Navbar.css'
 export default function Navbar() {
   return (
     <nav className="navBar">
@@ -34,18 +35,19 @@ export default function Navbar() {
           <ul className="navbar-nav">
             <li className="nav-item active">
               <a
-                className="nav-link"
+                className="nav-link nav-i"
                 id="dropdownMenuButton"
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
+                
               >
                 Info <span class="sr-only">(current)</span>
               </a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <Link to="/whydowe">
                   <a class="dropdown-item" href="#">
-                    Why we do
+                    Why do we?
                   </a>
                 </Link>
                 <Link to="conflictandconfusion">
@@ -55,29 +57,31 @@ export default function Navbar() {
                 </Link>
               </div>
             </li>
-            <li className="nav-item active">
-              <a className="nav-link" href="#">
+            <li className="nav-item active ">
+              <Link to="/donate" className="nav-link nav-i"  >
                 Donate
-              </a>
+              </Link>
             </li>
-            <li className="nav-item active">
-              <a className="nav-link" href="#">
+            <li className="nav-item active nav-i">
+            <Link to="/aboutus" className="nav-link nav-i"  >
                 About Us
-              </a>
+                </Link>
             </li>
-            <li className="nav-item active">
-              <a className="nav-link " href="#">
+            <li className="nav-item active nav-i">
+            <Link to="/contactus" className="nav-link nav-i"  >
                 Contact Us
-              </a>
+                </Link>
             </li>
             <div>
-              <Link to="/auth">
+              <Link to="/login">
                 <button
+                 
                   type="button"
-                  id="register_login"
+                  id="login"
                   className="btn btn-dark"
+                  
                 >
-                  Register/Login
+                  Login
                 </button>
               </Link>
             </div>

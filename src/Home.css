@@ -26,10 +26,10 @@
 } */
 
 #home {
-  height: 500px;
-  width: 750px;
+  height: 420px;
+  width: 790px;
   background: inherit;
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   padding: 2rem;
   align-items: center;
   text-align: center;
@@ -39,8 +39,20 @@
   backdrop-filter: blur(8px);
   position: absolute;
   overflow: hidden;
+  color:white;
 }
-
+.linktodonate{
+  text-decoration: none;
+  color: black;
+  width:8rem;
+  font-size:1.5rem;
+  font-weight:600;
+}
+.linktodonate:hover{
+  color:white;
+  background-color:#343434;
+}
+ 
 .home:before {
   position: absolute;
   content: "";

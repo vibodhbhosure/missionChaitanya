@@ -12,7 +12,7 @@ import WhyDoWe from './components/WhyDoWe'
 import ContactUs from './components/ContactUs'
 import AboutUs from './components/AboutUs'
 import ConflictsAndConfusion from './components/ConflictsAndConfusion'
-import Auth from './components/Auth';
+// import Auth from './components/Auth';
 import DoNamaste from './components/WhyDoWe/DoNamaste';
 import DoNotTouch from './components/WhyDoWe/DoNotTouch';
 import OfferFood from './components/WhyDoWe/OfferFood';
@@ -21,6 +21,8 @@ import CasteSystem from './components/ConflictsandConfusion/CasteSystem';
 import IdolWorship from './components/ConflictsandConfusion/IdolWorship';
 import LifeDeath from './components/ConflictsandConfusion/LifeDeath';
 import DestinySelfEffort from './components/ConflictsandConfusion/DestinySelfEffort';
+import Donate from './components/Donate';
+import Login from  './components/Login';
 
 
 
@@ -44,13 +46,13 @@ export default function App() {
           with exact path "/about", in component 
           props we passes the imported component*/}
           <Route path="/whydowe" component={WhyDoWe} />
-            
+          <Route path="/donate" component={Donate} />
           {/* This route is for contactus component
           with exact path "/contactus", in 
           component props we passes the imported component*/}
           <Route path="/contactus" component={ContactUs} />
           <Route path="/aboutus" component={AboutUs} />
-          <Route path="/auth" component={Auth} />
+          <Route path="/login" component={Login} />
           <Route path="/conflictandconfusion" component={ConflictsAndConfusion} />
         {/* whydo we routes */}
           <Route path="/whydowedonamaste" component={DoNamaste} />
