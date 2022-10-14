@@ -23,6 +23,7 @@ import LifeDeath from './components/ConflictsandConfusion/LifeDeath';
 import DestinySelfEffort from './components/ConflictsandConfusion/DestinySelfEffort';
 import Donate from './components/Donate';
 import Login from  './components/Login';
+import Register from './components/Register'
 
 
 
@@ -64,6 +65,11 @@ export default function App() {
           <Route path="/idolworship" component={IdolWorship} />
           <Route path="/lifeanddeath" component={LifeDeath} />
           <Route path="/destinySelfEffort" component={DestinySelfEffort} />
+
+          <Route path="/register" component={Register} />
+          <Route path="/login" component={Login} />
+
+
 
             
           {/* If any route mismatches the upper 
