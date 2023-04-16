@@ -1,13 +1,13 @@
 .cards{
-    width: 20rem;
-    height:32rem;
+    width: 16.5rem;
+    height:28rem;
     padding:0.1rem;
     margin:0.2rem
 
     
 }
 #cardimag{
-    width: 19.5rem;
+    width: 16rem;
     height: 14rem
 }
 .desc{

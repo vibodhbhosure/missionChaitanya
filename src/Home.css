@@ -26,10 +26,10 @@
 } */
 
 #home {
-  height: 420px;
+  height: 360px;
   width: 790px;
   background: inherit;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   padding: 2rem;
   align-items: center;
   text-align: center;

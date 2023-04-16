@@ -64,12 +64,12 @@ export default function Navbar() {
             </li>
             <li className="nav-item active nav-i">
             <Link to="/aboutus" className="nav-link nav-i"  >
-                About Us
+                About 
                 </Link>
             </li>
             <li className="nav-item active nav-i">
             <Link to="/contactus" className="nav-link nav-i"  >
-                Contact Us
+                Contact
                 </Link>
             </li>
             <div>
