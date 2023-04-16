@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function IdolWorship() {
+export default function destinySelfEffort() {
   return (
     <div className="main">
       <h2 className="title">IDOL WORSHIP</h2>

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function IdolWorship() {
+export default function lifeanddeath() {
   return (
     <div className="main">
       <h2 className="title">LIFE, DEATH AND REBIRTH</h2>
@@ -8,7 +8,7 @@ export default function IdolWorship() {
         <div>
           <img
             className="img"
-            src="https://static.toiimg.com/photo/msid-94565189.cms"
+            src="https://i.pinimg.com/564x/30/e0/09/30e0093e8e062e50dfac1c567e77c197.jpg"
           />
         </div>
         <div>
@@ -58,7 +58,7 @@ export default function IdolWorship() {
         <div>
           <img
             className="img"
-            src="https://images.languagehumanities.org/caste-system-in-india.jpg"
+            src="https://i.pinimg.com/564x/e7/b9/fd/e7b9fd912ad816ca5a93bfb09f277aab.jpg"
           />
         </div>
       </div>
@@ -66,7 +66,7 @@ export default function IdolWorship() {
         <div>
           <img
             className="img"
-            src="https://c.files.bbci.co.uk/C7B5/production/_88452115_brahmaalamy976.gif"
+            src="https://i.pinimg.com/564x/8e/89/9b/8e899ba84d58b6c1ca5766b403896095.jpg"
           />
         </div>
         <div>
@@ -111,17 +111,12 @@ export default function IdolWorship() {
         </div>
         <img
           className="img"
-          src="https://i0.wp.com/lawyersgyan.com/wp-content/uploads/2018/05/varna-system-caste-system-in-india.jpg?fit=960%2C540&ssl=1"
+          src="https://i.pinimg.com/564x/5d/5d/56/5d5d56b1b2cb1883ff0a60b8f184f351.jpg"
         />
       </div>
 
       <div className="container">
-        <div>
-          <img
-            className="img"
-            src="https://c.files.bbci.co.uk/C7B5/production/_88452115_brahmaalamy976.gif"
-          />
-        </div>
+         
         <div>
           <p>
             <u>

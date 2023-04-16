@@ -50,7 +50,7 @@ export default function IdolWorship() {
         <div>
           <img
             className="img"
-            src="https://images.languagehumanities.org/caste-system-in-india.jpg"
+            src="https://static.india.com/wp-content/uploads/2021/09/pexels-aarti-vijay-2900315.jpg?impolicy=Medium_Widthonly&w=700&h=467"
           />
         </div>
       </div>
@@ -58,7 +58,7 @@ export default function IdolWorship() {
         <div>
           <img
             className="img"
-            src="https://c.files.bbci.co.uk/C7B5/production/_88452115_brahmaalamy976.gif"
+            src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Shiv_lingam_Tripundra.jpg"
           />
         </div>
         <div>
@@ -94,18 +94,13 @@ export default function IdolWorship() {
         </div>
         <img
           className="img"
-          src="https://i0.wp.com/lawyersgyan.com/wp-content/uploads/2018/05/varna-system-caste-system-in-india.jpg?fit=960%2C540&ssl=1"
+          src="https://yogaformodernage.com/wp-content/uploads/2021/10/now-119.jpg"
         />
       </div>
 
       <div className="container">
         <div className="container">
-          <div>
-            <img
-              className="img"
-              src="https://c.files.bbci.co.uk/C7B5/production/_88452115_brahmaalamy976.gif"
-            />
-          </div>
+           
           <div>
             <p>
               <b>How is God worshipped through idols?</b> <br /> <br /> In India
