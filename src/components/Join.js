@@ -1,6 +1,6 @@
 import React from "react";
 import '../Join.css'
-import { getDatabase, ref, set } from "firebase/database";
+import { getDatabase, ref, push,set } from "firebase/database";
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -26,6 +26,7 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 
+
 const db = getDatabase();
 const messagesRef = ref(db, "messages");
 
@@ -39,7 +40,7 @@ export default function Join() {
         const phoneno = document.getElementById('phoneno').value;
         const age = document.getElementById('age').value;
         // console.log(email + " " + name + " " + phoneno + " " + age)
-        set(messagesRef, {
+        push(messagesRef, {
             name: name,
             email: email,
             age: age,
