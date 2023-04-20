@@ -72,7 +72,12 @@ export default function Navbar() {
                 Contact
                 </Link>
             </li>
-            <div>
+            <li className="nav-item active nav-i">
+            <Link to="/join" className="nav-link nav-i"  >
+                Join 
+                </Link>
+            </li>
+            {/* <div>
               <Link to="/login">
                 <button
                  
@@ -84,7 +89,7 @@ export default function Navbar() {
                   Login
                 </button>
               </Link>
-            </div>
+            </div> */}
           </ul>
         </div>
       </nav>

@@ -7,7 +7,7 @@ export default function Donate() {
     return (
         <div className="donate" >
          <div className="qr-bg">
-  <img   src={require('./qrcode.jpeg')}
+  <img   src={require('https://missionchaitanya.s3.ap-northeast-1.amazonaws.com/QR_host.jpg')}
 className=" img-donate  "/>
 </div>
 <div className="donate-text">

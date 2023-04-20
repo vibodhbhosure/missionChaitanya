@@ -1,5 +1,6 @@
 .nav-i{
-    font-size:1.3rem
+    font-size:1.3rem;
+    cursor: pointer;
 }
 #login{
     width:8rem;
