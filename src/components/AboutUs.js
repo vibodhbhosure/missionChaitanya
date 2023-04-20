@@ -34,12 +34,12 @@ export default function AboutUs() {
                     </div>
                     <div> <div class="card developer-card">
                         <div class="card-body">
-                            <h5 class="card-title developer-title">Snehal Lohar</h5>
+                            <h5 class="card-title developer-title">Renuka Patwari</h5>
 
 
                             <div className="social-icons">
-                            <a  href="https://github.com/SnehalSLohar"> <img className='icons' src={require('./github.png')}/></a>
-                            <a  href="https://www.linkedin.com/in/snehal-lohar-259198216/"> <img className='icons' src={require('./linkedin.png')}  /></a>
+                            <a  href="https://github.com/itsRenuka22"> <img className='icons' src={require('./github.png')}/></a>
+                            <a  href="https://www.linkedin.com/in/renuka-patwari-4181361b9/?originalSubdomain=in"> <img className='icons' src={require('./linkedin.png')}  /></a>
                                  
                             </div>
                         </div>
