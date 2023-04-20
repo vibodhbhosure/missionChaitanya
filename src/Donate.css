@@ -7,7 +7,7 @@
     }
     /* .qrcode{
         background-size: 100vw 100vh;
-  background-image: url("/public/assets/qrcode.jpeg");
+  background-image: url("https://missionchaitanya.s3.ap-northeast-1.amazonaws.com/QR_host.jpgs");
     } */
     @media (min-width: 1025px) {
     .h-custom-2 {
