@@ -8,12 +8,10 @@ import {
 
 import Navbar from './components/Navbar';
 import Home from './components/Home';
-import Join from './components/Join';
-
 import WhyDoWe from './components/WhyDoWe'
 import ContactUs from './components/ContactUs'
 import AboutUs from './components/AboutUs'
-import ConflictsAndConfusion from './components/ConflictsAndConfusion';
+import ConflictsAndConfusion from './components/ConflictsAndConfusion'
 // import Auth from './components/Auth';
 import DoNamaste from './components/WhyDoWe/DoNamaste';
 import DoNotTouch from './components/WhyDoWe/DoNotTouch';
@@ -67,7 +65,7 @@ export default function App() {
           <Route path="/idolworship" component={IdolWorship} />
           <Route path="/lifeanddeath" component={LifeDeath} />
           <Route path="/destinySelfEffort" component={DestinySelfEffort} />
-          <Route path="/join" component={Join} />
+
           <Route path="/register" component={Register} />
           <Route path="/login" component={Login} />
 

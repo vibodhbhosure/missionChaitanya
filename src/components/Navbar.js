@@ -15,7 +15,7 @@ export default function Navbar() {
               src="https://toppng.com/uploads/preview/om-symbol-transparent-background-11549837690tn2ios9vux.png"
               width="30"
               height="30"
-              className="d-inline-block align-top"
+              class="d-inline-block align-top"
               alt=""
             />
           </a>
@@ -42,16 +42,16 @@ export default function Navbar() {
                 aria-expanded="false"
                 
               >
-                Info <span className="sr-only">(current)</span>
+                Info <span class="sr-only">(current)</span>
               </a>
-              <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <Link to="/whydowe">
-                  <a className="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#">
                     Why do we?
                   </a>
                 </Link>
                 <Link to="conflictandconfusion">
-                  <a className="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#">
                     Conflicts and Confusion
                   </a>
                 </Link>
@@ -72,11 +72,19 @@ export default function Navbar() {
                 Contact
                 </Link>
             </li>
-            <li className="nav-item active nav-i">
-            <Link to="/join" className="nav-link nav-i"  >
-                Join 
-                </Link>
-            </li>
+            <div>
+              <Link to="/login">
+                <button
+                 
+                  type="button"
+                  id="login"
+                  className="btn btn-dark"
+                  
+                >
+                  Login
+                </button>
+              </Link>
+            </div>
           </ul>
         </div>
       </nav>
