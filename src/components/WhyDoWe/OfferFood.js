@@ -1,9 +1,11 @@
 import React from "react";
 import "../WhyDoWeCss.css/OfferFoodcss.css";
+import { useSpeechSynthesis } from "react-speech-kit";
 
 export default function OfferFood() {
+  const { speak } = useSpeechSynthesis();
   return (
-    <div className="main">
+    <div className="main offerfoodmain">
       <h2 className="title">
         Why do we offer food to the Lord before eating it?
       </h2>
@@ -127,6 +129,11 @@ export default function OfferFood() {
           className="img"
           src="https://ds393qgzrxwzn.cloudfront.net/resize/m600x500/cat1/img/images/0/8If1BPNtW5.jpg"
         />
+      </div>
+      <div className="namaste-btn">
+        <button onClick={() => speak({ text: document.querySelector('.offerfoodmain').textContent })} className="btn btn-light linktodonate">
+          Speech
+        </button>
       </div>
       <div className="footer">&copy; Mission Chaitanya</div>
     </div>

@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-size: 100vw;
 }
+
 #homecontainer {
   display: flex;
   flex-direction: row;
@@ -11,6 +12,7 @@
   justify-content: space-around;
   height: 90vh;
 }
+
 /* 
 #home {
   color: white;
@@ -39,20 +41,23 @@
   backdrop-filter: blur(8px);
   position: absolute;
   overflow: hidden;
-  color:white;
+  color: white;
 }
-.linktodonate{
+
+.linktodonate {
   text-decoration: none;
   color: black;
-  width:8rem;
-  font-size:1.5rem;
-  font-weight:600;
+  width: 8rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-right: 1rem;
 }
-.linktodonate:hover{
-  color:white;
-  background-color:#343434;
+
+.linktodonate:hover {
+  color: white;
+  background-color: #343434;
 }
- 
+
 .home:before {
   position: absolute;
   content: "";
@@ -66,7 +71,7 @@
   border-radius: 15px;
 }
 
-#home > button {
+#home>button {
   font-size: 1.5rem;
   font-weight: 600;
 }

@@ -1,7 +1,10 @@
 import React from "react";
 import "../WhyDoWeCss.css/DoNotTouchCss.css";
 
+import { useSpeechSynthesis } from "react-speech-kit";
+
 export default function DoNotTouch() {
+  const { speak } = useSpeechSynthesis();
   return (
     <div className="main">
       <h2 className="title">
@@ -107,6 +110,11 @@ export default function DoNotTouch() {
           className="img"
           src="https://assets.thehansindia.com/hansindia-bucket/2019/03/500x300_Vedas_3234.jpg"
         />
+      </div>
+      <div className="namaste-btn">
+        <button onClick={() => speak({ text: document.querySelector('.main').textContent })} className="btn btn-light linktodonate">
+          Speech
+        </button>
       </div>
       <div className="footer">&copy; Mission Chaitanya</div>
     </div>
